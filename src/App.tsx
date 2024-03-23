@@ -1,10 +1,10 @@
 import { FC } from 'react';
-import { Picture } from './Picture/Picture';
+import { EditProfile } from './EditProfile/EditProfile';
 
 export const App: FC = () => {
   return (
     <>
-      <Picture />
+      <EditProfile />
     </>
   );
 };
